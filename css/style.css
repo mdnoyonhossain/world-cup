@@ -348,6 +348,10 @@ Tablet Devive
         margin-bottom: 30px;
         cursor: pointer;
     }
+    #tablet-btn:hover{
+        color: black;
+        border: 1px solid #DD0000;
+    }
 
     .banner {
         display: flex;
