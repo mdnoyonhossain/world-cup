@@ -220,6 +220,9 @@ nav li a {
     text-decoration: none;
     color: #B9B9B9;
 }
+footer p{
+    font-size: 12px;
+}
 
 /*---------
 Upcomming Match Page Design
@@ -303,6 +306,9 @@ Tablet Devive
     #tablet-btn{
         display: block;
         text-align: center;
+        margin-left: 350px;
+        border: none;
+        margin-bottom: 30px;
     }
     .live-btn {
         background-color: #DD0000;
@@ -336,12 +342,18 @@ Mobile Device
         text-align: center;
     }
     .banner h1 {
-        font-size: 20px;
+        font-size: 17px;
         line-height: 33px;
+    }
+    .header-info p {
+        font-size: 12px;
     }
 
     .dekstop-des {
         display: none;
+    }
+    .live-btn{
+        padding: 12px 8px;
     }
 
     .mobile-tablet-des {
@@ -355,7 +367,7 @@ Mobile Device
         display: block;
         display: flex;
         flex-direction: column;
-        width: 30%;
+        width: 50%;
         margin: auto;
     }
     .filter-btn {
@@ -372,6 +384,15 @@ Mobile Device
     .blogs {
         width: 100%;
         grid-template-columns: repeat(1, 1fr);
+    }
+    .blog{
+        width: 100%;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+    nav ul{
+        margin: 0;
+        padding: 0;
     }
 
     nav li {
